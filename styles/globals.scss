@@ -1,0 +1,37 @@
+// Settings (variables, colours etc)
+@import 'settings/partials';
+
+// Tools (mixins etc)
+@import 'tools/partials';
+
+// Generic (normalise, resets, base styles)
+@import 'generic/partials';
+
+/* purgecss start ignore */
+@tailwind base; // Normalize & initial resets
+
+/* purgecss end ignore */
+
+// Elements (headings, forms, generic elements)
+@import 'elements/partials';
+
+// Vendor Styles (plugins/modules)
+
+// Objects (animations, containers, helper classes)
+
+/* purgecss start ignore */
+@tailwind components; // Has container classes
+
+/* purgecss end ignore */
+
+@import 'objects/partials';
+@tailwind utilities; // Everything else
+
+// Components (component styles, most should be in here)
+@import 'components/partials';
+
+// Pages (styles specific to pages)
+@import 'pages/partials';
+
+// Helpers, Utilities, Importants
+@import 'trumps';

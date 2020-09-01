@@ -1,0 +1,42 @@
+// p {
+//   margin-bottom: 12px;
+//   line-height: 1.75;
+
+//   @include breakpoint('smedium') {
+//     margin-bottom: 16px;
+//   }
+// }
+
+// blockquote {
+//   font-style: italic;
+//   quotes: '“' '”' '‘' '’';
+
+//   p:first-child {
+//     &::before {
+//       content: open-quote;
+//     }
+//   }
+
+//   p:last-child {
+//     &::after {
+//       content: close-quote;
+//     }
+//   }
+// }
+
+// hr {
+//   display: block;
+// }
+
+// // Ensure tables fill up as much space as possible.
+// table {
+//   width: 100%;
+// }
+
+// // Remove the focus styling on the div tag (needed as the menu items focus on the content when clicked).
+// div,
+// main {
+//   :focus {
+//     outline: none;
+//   }
+// }

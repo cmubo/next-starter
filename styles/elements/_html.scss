@@ -1,0 +1,32 @@
+/**
+ * 1. Set the default `font-size` and `line-height` for the entire project.
+ * 2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+ *    navigating between pages that do/do not have enough content to produce
+ *    scrollbars naturally.
+ * 3. Ensure the page always fills at least the entire height of the viewport.
+ * 4. Display Flex so the body can expand to full height too.
+ */
+
+// html {
+//   position: relative;
+//   display: flex; // [4]
+//   min-height: 100%; // [3]
+//   flex-direction: column;
+//   background: $color-bg;
+//   color: $color-text;
+//   font-family: $font;
+//   font-size: 1rem; // [1]
+//   -moz-osx-font-smoothing: grayscale;
+//   -webkit-font-smoothing: antialiased;
+//   font-weight: normal;
+//   line-height: 1.5; // [1]
+//   overflow-y: scroll; // [2]
+//   text-rendering: optimizeLegibility;
+// }
+
+// body {
+//   height: 100%;
+//   flex-grow: 1; // [4]
+//   font-size: 1rem;
+//   overflow-x: hidden;
+// }

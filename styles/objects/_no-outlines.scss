@@ -1,0 +1,14 @@
+.no-outlines {
+  .btn:focus,
+  button,
+  [type='button'],
+  a {
+    box-shadow: none;
+    outline: none;
+  }
+
+  .hide-outline {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
