@@ -56,8 +56,6 @@ We use css modules to import scss into our components. We do this so that were n
 
 ### Static rendering, Server side rendering or Client side rendering
 
-Since this app is heavily user based, a large part of the app will be using client side rendering using SWR for data fetching.
-
 Any pages in which all data fetching can be done at build time can use static rendering which is the fastest method.
 Use `getStaticProps()`
 
@@ -66,8 +64,3 @@ Use `getServerSideProps(context)`
 
 Pages that are more user specific and dont need SEO benefits, should use Client-side rendering.
 Use SWR (read below)
-
-### SWR
-
-We use SWR for our client side data fetching, SWR handles caching, scroll position recovery, pagination.
-https://swr.now.sh/
