@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "format-js": "prettier-eslint --write './{pages,components}/**/*.{js,json,ts}'",
-    "format-css": "prettier-stylelint --write './{styles,pages,components}/**/*.{css,scss}'"
+    "format-css": "prettier-stylelint --write './{styles,pages,components}/**/*.{css,scss}'",
+    "test": "jest"
   },
   "husky": {
     "hooks": {
