@@ -20,6 +20,7 @@ module.exports = {
     browser: true,
     amd: true,
     node: true,
+    jest: true,
   },
   rules: {
     'prettier/prettier': ['error', {}, { usePrettierrc: true }],
