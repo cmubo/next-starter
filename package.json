@@ -25,6 +25,9 @@
       "stylelint --fix"
     ]
   },
+  "engines": {
+    "node": ">= 12.13.*"
+  },
   "dependencies": {
     "next": "10.0.0",
     "react": "17.0.1",
@@ -32,10 +35,13 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.3.0",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/typography": "^0.4.0",
     "@testing-library/dom": "^7.24.1",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.0.2",
-    "autoprefixer": "^9.8.6",
+    "autoprefixer": "^10.2.4",
     "babel-eslint": "^10.1.0",
     "babel-jest": "^26.3.0",
     "eslint-config-prettier": "^6.11.0",
@@ -48,7 +54,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.4.2",
     "lint-staged": "^10.2.13",
-    "postcss": "^7.0.32",
+    "postcss": "^8.2.4",
     "postcss-preset-env": "^6.7.0",
     "prettier": "^2.1.1",
     "prettier-eslint": "^11.0.0",
@@ -62,6 +68,6 @@
     "stylelint-config-recommended-scss": "^4.2.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-scss": "^3.18.0",
-    "tailwindcss": "^1.9.6"
+    "tailwindcss": "^2.0.2"
   }
 }
