@@ -50,6 +50,8 @@ Unforunately due to this, the css modules will be decoupled from the scss flow, 
 
 We use css modules to import scss into our components. We do this so that were not loading unnecessary css into the dom. This way it is imported when the component is imported. The css is also scoped to the component so we dont need to worry about global styles clashing.
 
+Tailwind @apply can be used inside the modules which can partly make up for the lack of global scss variables.
+
 ---
 
 ## Data Fetching
