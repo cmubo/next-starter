@@ -16,7 +16,14 @@
 /build
 
 # misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+/npm-debug.log*
+/testem.log
+/yarn-error.log
 .DS_Store
+.idea
 *.pem
 
 # debug
